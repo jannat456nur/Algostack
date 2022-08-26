@@ -18,13 +18,13 @@ export default function Footer() {
     },
   };
   return (
-    <Box sx={{ flexGrow: 1, backgroundColor: "black",height:'913px' }} className="horizontal">
+    <Box sx={{ flexGrow: 1, backgroundColor: "black",height:'931px' }} className="horizontal">
       <Typography
         variant="h3"
         sx={{
           color: "white",
           backgroundColor: "black",
-          height: 50,
+          // height: 50,
           marginLeft: "60px",
           marginBottom: "10px",
           padding: "20px",
