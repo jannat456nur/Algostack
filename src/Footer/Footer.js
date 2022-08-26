@@ -43,16 +43,32 @@ export default function Footer() {
       >
         <Grid item xs={12} md={2} sx={{ color: "white", textAlign: "left" }}>
 
-          <Typography variant="body1" sx={{padding:'5px',margin:'5px'}}> <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  A:seestrasse 21</NavLink></Typography>
-          <Typography variant="body1" sx={{padding:'5px',margin:'5px'}}> <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  E:qi@example.com</NavLink></Typography>
-          <Typography variant="body1" sx={{padding:'5px',margin:'5px'}}><NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  T:00123 45 67 89</NavLink></Typography>
+          <Typography variant="body1" sx={{padding:'5px',margin:'5px'}}> 
+             <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  A:seestrasse 21</NavLink>
+          </Typography>
+          <Typography variant="body1" sx={{padding:'5px',margin:'5px'}}> 
+             <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  E:qi@example.com</NavLink>
+          </Typography>
+          <Typography variant="body1" sx={{padding:'5px',margin:'5px'}}>
+              <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  T:00123 45 67 89</NavLink>
+          </Typography>
         </Grid>
         <Grid item xs={12} md={2} sx={{ color: "white", textAlign: "left" }}>
-          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}><NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} > MAIN HOME</NavLink></Typography>
-          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}><NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  CONTACT</NavLink></Typography>
-          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}><NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  PORTFOLID</NavLink></Typography>
-          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}><NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  SHOP</NavLink></Typography>
-          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}><NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  LANDING</NavLink></Typography>
+          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}>
+              <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} > MAIN HOME</NavLink>
+          </Typography>
+          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}>
+              <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  CONTACT</NavLink>
+          </Typography>
+          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}>
+              <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  PORTFOLID</NavLink>
+          </Typography>
+          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}>
+              <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  SHOP</NavLink>
+          </Typography>
+          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}>
+              <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  LANDING</NavLink>
+          </Typography>
         </Grid>
         <Grid
           item
@@ -60,11 +76,22 @@ export default function Footer() {
           md={2}
           sx={{ color: "white", typography: "body1", textAlign: "left" }}
         >
-          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}><NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  ABOUT US</NavLink></Typography>
-          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}><NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  ABOUT ME</NavLink></Typography>
-          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}><NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  OUR PROCESS</NavLink></Typography>
-          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}><NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  OUR TEAM</NavLink></Typography>
-          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}><NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  PRICINGPLANS</NavLink></Typography>
+          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}>
+            <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  ABOUT US</NavLink>
+          
+          </Typography>
+          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}>
+             <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  ABOUT ME</NavLink>
+          </Typography>
+          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}>
+             <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  OUR PROCESS</NavLink>
+          </Typography>
+          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}>
+             <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  OUR TEAM</NavLink>
+          </Typography>
+          <Typography variant="subtitle2" sx={{padding:'5px',margin:'5px'}}>
+             <NavLink to="/home" style={{color:"#fff", textDecoration:"none"}} >  PRICINGPLANS</NavLink>
+          </Typography>
         </Grid>
         <Grid item xs={8} sm={12} md={4} sx={{ color: "white" }}>
           <Typography variant="h5">OUR NEWSLETTER </Typography>
@@ -100,7 +127,8 @@ export default function Footer() {
           display: "flex",
           justifyContent: "flex-start",
           height: 100,
-          marginLeft: "60px",
+          marginLeft: "4%",
+          marginTop:'10%'
         }}
       >
         © 2022 Qode Interactive, All Rights Reserved
