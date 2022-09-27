@@ -105,7 +105,7 @@ export default function Footer() {
                   color: '#fff',},
 
               // backgroundColor: "#ccc",
-              color: "#999",
+              // color: "#999",
               padding: "none",
               borderBottom: "2px solid #fff",
             }}
